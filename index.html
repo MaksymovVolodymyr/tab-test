@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tabs-header" id="tab-header">
+            <div class="tab-control"
+                 data-tab-target="tab-1"
+                 data-tab-url="https://raw.githubusercontent.com/sellbe/test-task/master/data/1.json">
+                <div class="tab-control__num">1</div>
+                <div class="tab-control__figure tab-control__figure--1"></div>
+            </div>
+            <div class="tab-control"
+                 data-tab-target="tab-2"
+                 data-tab-url="https://raw.githubusercontent.com/sellbe/test-task/master/data/2.json">
+                <div class="tab-control__num">2</div>
+                <div class="tab-control__figure tab-control__figure--2"></div>
+            </div>
+            <div class="tab-control"
+                 data-tab-target="tab-3"
+                 data-tab-url="https://raw.githubusercontent.com/sellbe/test-task/master/data/3.json">
+                <div class="tab-control__num">3</div>
+                <div class="tab-control__figure tab-control__figure--3">
+                    <div class="tab-control__figure--3-item-1"></div>
+                    <div class="tab-control__figure--3-item-2"></div>
+                </div>
+            </div>
+            <div class="tab-control"
+                 data-tab-target="tab-4"
+                 data-tab-url="https://raw.githubusercontent.com/sellbe/test-task/master/data/4.json">
+                <div class="tab-control__num">4</div>
+                <div class="tab-control__figure tab-control__figure--4"></div>
+            </div>
+        </div>
+        <div class="tabs-main">
+            <div class="tab" data-tab="tab-1"></div>
+            <div class="tab" data-tab="tab-2"></div>
+            <div class="tab" data-tab="tab-3"></div>
+            <div class="tab" data-tab="tab-4"></div>
+        </div>
+    </div>
+</body>
+<script
+        src="https://code.jquery.com/jquery-3.4.0.min.js"
+        integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+        crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</html>
